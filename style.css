@@ -1,0 +1,97 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  margin: auto;
+  background-image: url('https://h3oconceptz.files.wordpress.com/2012/09/1351-dark-floorboards-wallpaper-wallchan-1366x768-png.jpg');
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+}
+
+header {
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#title {
+  color: white;
+}
+
+.page-logo {
+  padding-left: 10px;
+  width: 150px;
+}
+
+.main {
+  display: block;
+  margin-top: 50px;
+}
+
+.form {
+  margin: auto;
+  width: 240px;
+  border: solid white 2px;
+  padding: 10px;
+  padding-left: 18px;
+}
+
+input {
+  margin-bottom: 5px;
+}
+
+#n0, #nc {
+  width: 108px;
+  border-radius: 10%;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: #565656;
+  color: white;
+  border: solid 1px darkgray;
+}
+
+.button:hover {
+  text-shadow: 0 0 4px black, 0 0 4px black;
+}
+
+.textview {
+  margin-left: 2px;
+  margin-bottom: 10px;
+  width: 215px;
+  height: 40px;
+  text-align: right;
+  font-family: 'Roboto Mono',monospace;
+  font-size: 25px;
+  background: transparent;
+  border: solid 2px white;
+  color: white;
+  border-radius: 3%;
+}
+
+.igual {
+  background-color: green;
+}
+
+.op {
+  color: #0f0;
+}
+
+.c {
+  color: orange;
+}
+
+.textview:focus {
+  border: solid 2px white;
+  outline: 0;
+  box-shadow: 0 0 0 0;
+}
+
+.button:focus {
+  border: solid 1px darkgray;
+  outline: 0;
+  box-shadow: 0 0 0 0;
+}
